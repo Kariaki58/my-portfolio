@@ -23,6 +23,12 @@
       "description": "A collaborative project management tool",
       "imageUrl": "https://images.unsplash.com/photo-1627827963179-a8bb14121eb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2FhcyUyMGludGVyZmFjZXxlbnwwfHx8fDE3NTg3MTg1NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "saas interface"
+    },
+    {
+      "id": "profile-picture",
+      "description": "A professional headshot of a developer",
+      "imageUrl": "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg2OTEzODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
     }
   ]
 }
