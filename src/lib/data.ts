@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter, MessageCircle } from 'lucide-react';
 
 export const projects = [
   {
@@ -76,6 +76,7 @@ export const socialLinks = [
   { icon: Github, href: '#' },
   { icon: Linkedin, href: '#' },
   { icon: Twitter, href: '#' },
+  { icon: MessageCircle, href: 'https://wa.me/yourwhatsappnumber' },
 ] as const;
 
 export const reviews = [
