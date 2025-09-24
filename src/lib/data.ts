@@ -77,3 +77,24 @@ export const socialLinks = [
   { icon: Linkedin, href: '#' },
   { icon: Twitter, href: '#' },
 ] as const;
+
+export const reviews = [
+  {
+    quote: "Working with this developer was an absolute pleasure. Their attention to detail and commitment to quality is unparalleled. They transformed our vision into a stunning, high-performance reality.",
+    name: "Jane Doe",
+    title: "CEO, Tech Innovators",
+    imageId: "reviewer-1"
+  },
+  {
+    quote: "A true professional and a master of their craft. The code is clean, the communication is clear, and the results speak for themselves. I couldn't be happier with the final product.",
+    name: "John Smith",
+    title: "CTO, Future Solutions",
+    imageId: "reviewer-2"
+  },
+  {
+    quote: "Their ability to tackle complex problems with creative solutions is impressive. They delivered on time, on budget, and exceeded all our expectations. Highly recommended!",
+    name: "Emily White",
+    title: "Product Manager, Creative Co.",
+    imageId: "reviewer-3"
+  }
+];
