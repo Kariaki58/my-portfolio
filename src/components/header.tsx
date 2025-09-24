@@ -16,7 +16,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const profileImage = PlaceHolderImages.find(p => p.id === 'profile-picture');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,18 +52,6 @@ export default function Header() {
     )}>
       <div className="container flex h-20 items-center justify-between">
         <Link href="#home" className="flex items-center gap-3 text-xl font-bold font-headline text-foreground">
-          {profileImage && (
-            <div className="relative w-10 h-10 rounded-full overflow-hidden border-2 border-primary/50">
-              <Image
-                src={profileImage.imageUrl}
-                alt="Code Alchemist"
-                width={40}
-                height={40}
-                data-ai-hint={profileImage.imageHint}
-                className="object-cover"
-              />
-            </div>
-          )}
           <span>Code Alchemist</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
@@ -85,17 +72,6 @@ export default function Header() {
               <div className="flex flex-col h-full">
                 <div className="flex justify-between items-center py-4 border-b border-white/10">
                     <Link href="#home" className="flex items-center gap-2 text-xl font-bold font-headline text-foreground" onClick={() => setIsMobileMenuOpen(false)}>
-                     {profileImage && (
-                        <div className="relative w-8 h-8 rounded-full overflow-hidden border-2 border-primary/50">
-                          <Image
-                            src={profileImage.imageUrl}
-                            alt="Code Alchemist"
-                            width={32}
-                            height={32}
-                            className="object-cover"
-                          />
-                        </div>
-                      )}
                       <span>Code Alchemist</span>
                     </Link>
                     <SheetTrigger asChild>

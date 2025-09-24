@@ -1,8 +1,13 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+
 
 export default function HeroSection() {
+  const profileImage = PlaceHolderImages.find(p => p.id === 'profile-picture');
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center text-center overflow-hidden">
       <div className="absolute inset-0 bg-background -z-10"
@@ -19,6 +24,20 @@ export default function HeroSection() {
         <p className="text-lg md:text-2xl font-light bg-gradient-to-r from-primary via-accent to-primary animated-gradient animate-text-shimmer mb-8">
           Crafting Digital Experiences from the Future
         </p>
+        
+        {profileImage && (
+          <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-primary/50 shadow-[0_0_30px_hsl(var(--primary)/0.5)] mb-8">
+            <Image
+              src={profileImage.imageUrl}
+              alt="Code Alchemist"
+              width={128}
+              height={128}
+              data-ai-hint={profileImage.imageHint}
+              className="object-cover"
+            />
+          </div>
+        )}
+
         <Link href="#contact">
           <Button size="lg" className="group bg-primary hover:bg-primary/90 text-primary-foreground rounded-full shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 hover:shadow-[0_0_30px_hsl(var(--primary)/0.6)]">
             Get In Touch
