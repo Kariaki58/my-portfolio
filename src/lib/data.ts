@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, MessageCircle, Code, Smartphone, BarChart, Video, Type, Briefcase } from 'lucide-react';
+import { Github, Linkedin, Twitter, MessageCircle, Code, Smartphone, BarChart, Video, Type, Briefcase, Smile, FolderKanban, Clock } from 'lucide-react';
 
 export const projects = [
   {
@@ -113,5 +113,23 @@ export const reviews = [
     name: "Emily White",
     title: "Product Manager, Creative Co.",
     imageId: "reviewer-3"
+  }
+];
+
+export const stats = [
+  {
+    icon: Smile,
+    value: 120,
+    label: "Happy Clients"
+  },
+  {
+    icon: FolderKanban,
+    value: 250,
+    label: "Projects Completed"
+  },
+  {
+    icon: Clock,
+    value: 6,
+    label: "Years of Experience"
   }
 ];

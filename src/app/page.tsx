@@ -6,6 +6,7 @@ import ServicesSection from '@/components/sections/services-section';
 import ContactSection from '@/components/sections/contact-section';
 import Footer from '@/components/footer';
 import ReviewsSection from '@/components/sections/reviews-section';
+import StatsSection from '@/components/sections/stats-section';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <HeroSection />
+        <StatsSection />
         <ServicesSection />
         <PortfolioSection />
         <AboutSection />
