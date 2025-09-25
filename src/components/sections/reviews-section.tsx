@@ -21,52 +21,54 @@ export default function ReviewsSection() {
           <SectionHeading subtitle="Testimonials" title="What My Clients Say" />
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper delay={200}>
-          <Carousel
-            opts={{
-              loop: true,
-            }}
-            className="w-full max-w-4xl mx-auto"
-          >
-            <CarouselContent>
-              {reviews.map((review, index) => {
-                const placeholder = PlaceHolderImages.find(p => p.id === review.imageId);
-                return (
-                  <CarouselItem key={index}>
-                    <div className="p-1">
-                      <Card className="bg-card/50 border-white/10 rounded-xl backdrop-blur-sm overflow-hidden">
-                        <CardContent className="flex flex-col items-center text-center p-8 md:p-12">
-                          <div className="flex mb-4">
-                            {[...Array(5)].map((_, i) => (
-                              <Star key={i} className="h-5 w-5 text-accent fill-accent" />
-                            ))}
-                          </div>
-                          <p className="text-lg md:text-xl text-foreground italic mb-6">
-                            &ldquo;{review.quote}&rdquo;
-                          </p>
-                          {placeholder && (
-                             <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-primary/50 shadow-[0_0_20px_hsl(var(--primary)/0.4)] mb-4">
-                               <Image
-                                   src={placeholder.imageUrl}
-                                   alt={review.name}
-                                   width={80}
-                                   height={80}
-                                   data-ai-hint={placeholder.imageHint}
-                                   className="object-cover"
-                               />
-                           </div>
-                          )}
-                          <p className="font-bold text-lg font-headline text-primary-foreground">{review.name}</p>
-                          <p className="text-sm text-muted-foreground">{review.title}</p>
-                        </CardContent>
-                      </Card>
-                    </div>
-                  </CarouselItem>
-                );
-              })}
-            </CarouselContent>
-            <CarouselPrevious className="left-[-50px] text-foreground bg-card/80 border-white/10 hover:bg-primary hover:text-primary-foreground" />
-            <CarouselNext className="right-[-50px] text-foreground bg-card/80 border-white/10 hover:bg-primary hover:text-primary-foreground" />
-          </Carousel>
+          <div className="relative">
+            <Carousel
+              opts={{
+                loop: true,
+              }}
+              className="w-full max-w-4xl mx-auto"
+            >
+              <CarouselContent>
+                {reviews.map((review, index) => {
+                  const placeholder = PlaceHolderImages.find(p => p.id === review.imageId);
+                  return (
+                    <CarouselItem key={index}>
+                      <div className="p-1">
+                        <Card className="bg-card/50 border-white/10 rounded-xl backdrop-blur-sm overflow-hidden">
+                          <CardContent className="flex flex-col items-center text-center p-8 md:p-12">
+                            <div className="flex mb-4">
+                              {[...Array(5)].map((_, i) => (
+                                <Star key={i} className="h-5 w-5 text-accent fill-accent" />
+                              ))}
+                            </div>
+                            <p className="text-lg md:text-xl text-foreground italic mb-6">
+                              &ldquo;{review.quote}&rdquo;
+                            </p>
+                            {placeholder && (
+                              <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-primary/50 shadow-[0_0_20px_hsl(var(--primary)/0.4)] mb-4">
+                                <Image
+                                  src={placeholder.imageUrl}
+                                  alt={review.name}
+                                  width={80}
+                                  height={80}
+                                  data-ai-hint={placeholder.imageHint}
+                                  className="object-cover"
+                                />
+                              </div>
+                            )}
+                            <p className="font-bold text-lg font-headline text-primary-foreground">{review.name}</p>
+                            <p className="text-sm text-muted-foreground">{review.title}</p>
+                          </CardContent>
+                        </Card>
+                      </div>
+                    </CarouselItem>
+                  );
+                })}
+              </CarouselContent>
+              <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-full md:-translate-x-1/2 text-foreground bg-card/80 border-white/10 hover:bg-primary hover:text-primary-foreground z-10" />
+              <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-full md:translate-x-1/2 text-foreground bg-card/80 border-white/10 hover:bg-primary hover:text-primary-foreground z-10" />
+            </Carousel>
+          </div>
         </ScrollAnimationWrapper>
       </div>
     </section>
