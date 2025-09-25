@@ -98,7 +98,7 @@ export default function ContactSection() {
                     <FormLabel className="text-muted-foreground">Message</FormLabel>
                     <FormControl>
                       <Textarea
-                        placeholder="Tell me about your project..."
+                        placeholder="Tell us about your project..."
                         className="min-h-[150px] bg-background/50 border-white/10"
                         {...field}
                       />
