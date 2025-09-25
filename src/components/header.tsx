@@ -10,8 +10,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { cn } from '@/lib/utils';
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,10 +24,10 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    { name: 'Projects', href: '#projects' },
+    { name: 'Services', href: '#services' },
+    { name: 'Our Work', href: '#projects' },
     { name: 'About', href: '#about' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Reviews', href: '#reviews' },
+    { name: 'Testimonials', href: '#reviews' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -53,7 +51,7 @@ export default function Header() {
     )}>
       <div className="container flex h-20 items-center justify-between">
         <Link href="#home" className="flex items-center gap-3 text-xl font-bold font-headline text-foreground">
-          <span>Code Alchemist</span>
+          <span>ClickFlow Studio</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
           {navItems.map(item => (
@@ -73,7 +71,7 @@ export default function Header() {
               <div className="flex flex-col h-full">
                 <div className="flex justify-between items-center py-4 border-b border-white/10">
                     <Link href="#home" className="flex items-center gap-2 text-xl font-bold font-headline text-foreground" onClick={() => setIsMobileMenuOpen(false)}>
-                      <span>Code Alchemist</span>
+                      <span>ClickFlow Studio</span>
                     </Link>
                     <SheetTrigger asChild>
                       <Button variant="ghost" size="icon">

@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="bg-card border-t border-white/10">
       <div className="container py-8 flex flex-col sm:flex-row justify-between items-center gap-4">
         <p className="text-sm text-muted-foreground">
-          &copy; {currentYear} Code Alchemist. All rights reserved.
+          &copy; {currentYear} ClickFlow Studio. All rights reserved.
         </p>
         <div className="flex items-center gap-2">
           {socialLinks.map((link, index) => (

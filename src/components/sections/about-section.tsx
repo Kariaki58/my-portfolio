@@ -8,12 +8,12 @@ export default function AboutSection() {
     <section id="about" className="py-24 md:py-32">
       <div className="container">
         <ScrollAnimationWrapper>
-          <SectionHeading subtitle="My Journey" title="About Me" />
+          <SectionHeading subtitle="Our Story" title="About ClickFlow" />
         </ScrollAnimationWrapper>
 
         <ScrollAnimationWrapper className="max-w-3xl mx-auto mb-16 text-center">
             <p className="text-lg text-muted-foreground">
-                I&apos;m a passionate web developer with a knack for creating elegant, high-performance digital experiences. With a foundation in computer science and years of hands-on experience, I transform complex problems into beautiful, intuitive solutions.
+              ClickFlow Studio was born from a passion for creating elegant, high-performance digital experiences that drive real-world results. We transform complex problems into beautiful, intuitive solutions that help businesses thrive.
             </p>
         </ScrollAnimationWrapper>
         
