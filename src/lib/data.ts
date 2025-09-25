@@ -1,31 +1,31 @@
-import { Github, Linkedin, Twitter, MessageCircle } from 'lucide-react';
+import { Github, Linkedin, Twitter, MessageCircle, Code, Smartphone, BarChart, Video, Type, Briefcase } from 'lucide-react';
 
 export const projects = [
   {
-    title: 'Project Alpha',
+    title: 'E-commerce Platform',
     description: 'An advanced e-commerce platform with a focus on user experience and performance.',
-    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe'],
+    tags: ['Web Development', 'Next.js', 'Stripe'],
     imageId: 'project-1',
     link: '#',
   },
   {
-    title: 'Project Beta',
+    title: 'Data Viz Dashboard',
     description: 'A cutting-edge data visualization tool for analyzing complex datasets in real-time.',
-    tags: ['React', 'D3.js', 'Node.js', 'GraphQL'],
+    tags: ['Web Development', 'React', 'D3.js'],
     imageId: 'project-2',
     link: '#',
   },
   {
-    title: 'Project Gamma',
+    title: 'Mobile Banking App',
     description: 'A secure and intuitive mobile banking application designed for the modern user.',
-    tags: ['React Native', 'Firebase', 'Redux'],
+    tags: ['App Development', 'React Native', 'Firebase'],
     imageId: 'project-3',
     link: '#',
   },
   {
-    title: 'Project Delta',
+    title: 'Project Management SaaS',
     description: 'A collaborative project management SaaS that streamlines team workflows.',
-    tags: ['Vue.js', 'Express', 'MongoDB', 'Socket.io'],
+    tags: ['Web Development', 'Vue.js', 'MongoDB'],
     imageId: 'project-4',
     link: '#',
   },
@@ -34,43 +34,59 @@ export const projects = [
 export const timeline = [
   {
     year: '2018',
-    title: 'Started Journey',
-    description: 'Began my journey into web development, learning the fundamentals of HTML, CSS, and JavaScript.',
+    title: 'Agency Founded',
+    description: 'ClickFlow Studio was founded with the mission to help businesses succeed in the digital world.',
   },
   {
     year: '2020',
-    title: 'Graduated University',
-    description: 'Completed my degree in Computer Science, solidifying my understanding of software engineering principles.',
+    title: 'Expanded Services',
+    description: 'Expanded our service offerings to include App Development and SEO to meet growing client demand.',
   },
   {
-    year: '2021',
-    title: 'First Junior Role',
-    description: 'Joined a dynamic startup as a Junior Developer, contributing to a large-scale React application.',
+    year: '2022',
+    title: 'Growth Partner Program',
+    description: 'Launched our In-house Growth Partner program, offering dedicated teams to accelerate business growth.',
   },
   {
-    year: '2023',
-    title: 'Senior Developer',
-    description: 'Promoted to Senior Developer, leading a team and architecting new features for a fintech platform.',
+    year: '2024',
+    title: '100+ Happy Clients',
+    description: 'Celebrated the milestone of helping over 100 clients achieve their digital marketing and development goals.',
   },
 ];
 
-export const skills = [
-  { name: 'JavaScript', category: 'Frontend' },
-  { name: 'TypeScript', category: 'Frontend' },
-  { name: 'React', category: 'Frontend' },
-  { name: 'Next.js', category: 'Frontend' },
-  { name: 'Tailwind CSS', category: 'Frontend' },
-  { name: 'Node.js', category: 'Backend' },
-  { name: 'Python', category: 'Backend' },
-  { name: 'GraphQL', category: 'Backend' },
-  { name: 'PostgreSQL', category: 'Database' },
-  { name: 'MongoDB', category: 'Database' },
-  { name: 'Docker', category: 'DevOps' },
-  { name: 'Kubernetes', category: 'DevOps' },
-  { name: 'Firebase', category: 'Cloud' },
-  { name: 'AWS', category: 'Cloud' },
-  { name: 'Figma', category: 'Design' },
+export const services = [
+  {
+    icon: Code,
+    title: "Web Development",
+    description: "Crafting beautiful, high-performance websites tailored to your brand and business goals.",
+  },
+  {
+    icon: Smartphone,
+    title: "App Development",
+    description: "Building intuitive and scalable mobile applications for both iOS and Android platforms.",
+  },
+  {
+    icon: BarChart,
+    title: "SEO",
+    description: "Boosting your online visibility and driving organic traffic with proven SEO strategies.",
+  },
+  {
+    icon: Video,
+    title: "Video Editing",
+    description: "Producing compelling video content that engages your audience and tells your story.",
+  },
+  {
+    icon: Type,
+    title: "Copywriting",
+    description: "Creating persuasive and engaging copy that converts visitors into customers.",
+  },
+  {
+    icon: Briefcase,
+    title: "In-house Growth Partner",
+    description: "Embedding our experts in your team to provide continuous, data-driven growth.",
+  }
 ];
+
 
 export const socialLinks = [
   { icon: Github, href: '#' },
@@ -81,7 +97,7 @@ export const socialLinks = [
 
 export const reviews = [
   {
-    quote: "Working with this developer was an absolute pleasure. Their attention to detail and commitment to quality is unparalleled. They transformed our vision into a stunning, high-performance reality.",
+    quote: "Working with ClickFlow Studio was an absolute pleasure. Their attention to detail and commitment to quality is unparalleled. They transformed our vision into a stunning, high-performance reality.",
     name: "Jane Doe",
     title: "CEO, Tech Innovators",
     imageId: "reviewer-1"

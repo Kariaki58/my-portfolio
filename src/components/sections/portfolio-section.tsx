@@ -14,7 +14,7 @@ export default function PortfolioSection() {
     <section id="projects" className="py-24 md:py-32 bg-background">
       <div className="container">
         <ScrollAnimationWrapper>
-          <SectionHeading subtitle="My Work" title="Featured Projects" />
+          <SectionHeading subtitle="Our Work" title="Featured Projects" />
         </ScrollAnimationWrapper>
 
         <div className="grid md:grid-cols-2 gap-8">

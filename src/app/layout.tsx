@@ -4,8 +4,8 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Code Alchemist',
-  description: 'Futuristic Portfolio for a Professional Web Developer',
+  title: 'ClickFlow Studio',
+  description: 'Digital Agency for Web/App Development, SEO, and more.',
 };
 
 export default function RootLayout({
