@@ -2,32 +2,32 @@ import { Github, Linkedin, Twitter, MessageCircle, Code, Smartphone, BarChart, V
 
 export const projects = [
   {
-    title: 'E-commerce Platform',
-    description: 'An advanced e-commerce platform with a focus on user experience and performance.',
-    tags: ['Web Development', 'Next.js', 'Stripe'],
+    title: 'MLM System with Ecommerce',
+    description: 'A 7 layer mlm system that allow people to refer and earn money, also have a marketplace.',
+    tags: ['Web Development', 'Next.js', 'Futterwave', 'emailjs', 'Mongodb'],
     imageId: 'project-1',
-    link: '#',
+    link: 'https://www.pamarel.com.ng/',
   },
   {
-    title: 'Data Viz Dashboard',
-    description: 'A cutting-edge data visualization tool for analyzing complex datasets in real-time.',
-    tags: ['Web Development', 'React', 'D3.js'],
+    title: 'Nkins Brand online Store',
+    description: 'A professional looking website that increases Nkins sales by 35%',
+    tags: ['Web Development', 'Nextjs 15', 'Mongodb', 'Resend'],
     imageId: 'project-2',
-    link: '#',
+    link: 'https://nkins.vercel.app/',
   },
   {
-    title: 'Mobile Banking App',
-    description: 'A secure and intuitive mobile banking application designed for the modern user.',
-    tags: ['App Development', 'React Native', 'Firebase'],
+    title: 'Data Analytics Company Website',
+    description: 'A professional modern conversion focus data analytics website for sekelhive',
+    tags: ['Web Development', 'Nextjs 15', 'Tailwind Css'],
     imageId: 'project-3',
-    link: '#',
+    link: 'https://www.sekelhive.com/',
   },
   {
-    title: 'Project Management SaaS',
-    description: 'A collaborative project management SaaS that streamlines team workflows.',
-    tags: ['Web Development', 'Vue.js', 'MongoDB'],
+    title: 'Dentist WebSite',
+    description: 'Modern designed Dentist Website for neondentalprosthetic',
+    tags: ['Web Development', 'Nextjs 15', 'MongoDB', 'Tailwind Css'],
     imageId: 'project-4',
-    link: '#',
+    link: 'https://www.neondentalprosthetic.com/',
   },
 ];
 

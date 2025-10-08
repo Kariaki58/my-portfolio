@@ -2,51 +2,27 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "description": "A modern e-commerce dashboard",
-      "imageUrl": "https://images.unsplash.com/photo-1691725909676-105654d24649?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NTg2ODIwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A 7 layer mlm system that allow people to refer and earn money, also have a marketplace.",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/v1759927330/p1_fecpuh.png",
       "imageHint": "dashboard ui"
     },
     {
       "id": "project-2",
       "description": "A futuristic data visualization platform",
-      "imageUrl": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwwfHx8fDE3NTg3MDc1Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/v1759928003/p2_p1t8qr.png",
       "imageHint": "data visualization"
     },
     {
       "id": "project-3",
-      "description": "A sleek mobile banking application",
-      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzU4Njc5ODc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Data Analytics Company Website",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/v1759928650/p3_kqdurh.png",
       "imageHint": "mobile app"
     },
     {
       "id": "project-4",
       "description": "A collaborative project management tool",
-      "imageUrl": "https://images.unsplash.com/photo-1627827963179-a8bb14121eb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2FhcyUyMGludGVyZmFjZXxlbnwwfHx8fDE3NTg3MTg1NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/v1759929431/p4_b8cmbs.png",
       "imageHint": "saas interface"
-    },
-    {
-      "id": "profile-picture",
-      "description": "A professional headshot of a developer",
-      "imageUrl": "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg2OTEzODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional headshot"
-    },
-    {
-      "id": "reviewer-1",
-      "description": "Headshot of Jane Doe",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMGhlYWRzaG90fGVufDB8fHx8MTc1ODY3NjE0OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman headshot"
-    },
-    {
-      "id": "reviewer-2",
-      "description": "Headshot of John Smith",
-      "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg3MjE1Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "man headshot"
-    },
-    {
-      "id": "reviewer-3",
-      "description": "Headshot of Emily White",
-      "imageUrl": "https://images.unsplash.com/photo-1598625873873-52f9aefd7d9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzU4NjU1Mzc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman smiling"
     }
   ]
 }

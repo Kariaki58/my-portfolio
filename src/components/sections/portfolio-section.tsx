@@ -61,13 +61,19 @@ function ProjectCard({ project, placeholder }: { project: (typeof projects)[0], 
         </div>
       </CardContent>
       <CardFooter className="p-6 pt-0">
-         <Button asChild variant="ghost" className="text-accent p-0 h-auto hover:bg-transparent hover:text-accent/80">
-            <Link href={project.link} className="group/link">
-                View Project
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover/link:translate-x-1" />
-            </Link>
-         </Button>
+        <Button asChild variant="ghost" className="text-accent p-0 h-auto hover:bg-transparent hover:text-accent/80">
+          <Link
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group/link"
+          >
+            View Project
+            <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover/link:translate-x-1" />
+          </Link>
+        </Button>
       </CardFooter>
+
     </Card>
   );
 }

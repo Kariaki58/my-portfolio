@@ -18,7 +18,7 @@ export default function ReviewsSection() {
     <section id="reviews" className="py-24 md:py-32">
       <div className="container">
         <ScrollAnimationWrapper>
-          <SectionHeading subtitle="Testimonials" title="What My Clients Say" />
+          <SectionHeading subtitle="Testimonials" title="What Our Clients Say" />
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper delay={200}>
           <div className="relative">
