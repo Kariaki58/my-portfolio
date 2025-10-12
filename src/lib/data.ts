@@ -50,7 +50,7 @@ export const timeline = [
   {
     year: '2025',
     title: '20+ Happy Clients',
-    description: 'Celebrated the milestone of helping over 100 clients achieve their digital marketing and development goals.',
+    description: 'Celebrated the milestone of helping over 20 clients achieve their digital marketing and development goals.',
   },
 ];
 
