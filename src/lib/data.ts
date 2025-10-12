@@ -33,23 +33,23 @@ export const projects = [
 
 export const timeline = [
   {
-    year: '2018',
+    year: '2022',
     title: 'Agency Founded',
     description: 'ClickFlow Studio was founded with the mission to help businesses succeed in the digital world.',
   },
   {
-    year: '2020',
+    year: '2023',
     title: 'Expanded Services',
     description: 'Expanded our service offerings to include App Development and SEO to meet growing client demand.',
   },
   {
-    year: '2022',
+    year: '2024',
     title: 'Growth Partner Program',
     description: 'Launched our In-house Growth Partner program, offering dedicated teams to accelerate business growth.',
   },
   {
-    year: '2024',
-    title: '100+ Happy Clients',
+    year: '2025',
+    title: '20+ Happy Clients',
     description: 'Celebrated the milestone of helping over 100 clients achieve their digital marketing and development goals.',
   },
 ];
@@ -119,17 +119,17 @@ export const reviews = [
 export const stats = [
   {
     icon: Smile,
-    value: 120,
+    value: 20,
     label: "Happy Clients"
   },
   {
     icon: FolderKanban,
-    value: 250,
+    value: 25,
     label: "Projects Completed"
   },
   {
     icon: Clock,
-    value: 6,
+    value: 4,
     label: "Years of Experience"
   }
 ];
