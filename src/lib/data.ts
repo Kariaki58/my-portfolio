@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, MessageCircle, Code, Smartphone, BarChart, Video, Type, Briefcase, Smile, FolderKanban, Clock } from 'lucide-react';
+import { Github, Linkedin, Instagram, Twitter, MessageCircle, Code, Smartphone, BarChart, Video, Type, Briefcase, Smile, FolderKanban, Clock } from 'lucide-react';
 
 export const projects = [
   {
@@ -89,10 +89,10 @@ export const services = [
 
 
 export const socialLinks = [
-  { icon: Github, href: '#' },
-  { icon: Linkedin, href: '#' },
-  { icon: Twitter, href: '#' },
-  { icon: MessageCircle, href: 'https://wa.me/yourwhatsappnumber' },
+  { icon: Github, href: 'https://github.com/Kariaki58' },
+  { icon: Instagram, href: 'https://www.instagram.com/steve_growth58/' },
+  { icon: Twitter, href: 'https://x.com/SKariaki' },
+  { icon: MessageCircle, href: 'https://wa.me/+2348107920394' },
 ] as const;
 
 export const reviews = [
