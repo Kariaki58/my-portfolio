@@ -31,19 +31,19 @@ export default function ContactSection() {
         </ScrollAnimationWrapper>
 
         <ScrollAnimationWrapper delay={200} className="max-w-2xl mx-auto">
-          <div className="text-center space-y-8 p-8 border border-white/10 rounded-xl bg-card/50 backdrop-blur-sm">
+          <div className="text-center space-y-8 p-4 sm:p-6 md:p-8 border border-white/10 rounded-xl bg-card/50 backdrop-blur-sm">
             <div className="space-y-4">
               <div className="flex justify-center">
-                <div className="p-4 bg-primary/10 rounded-full">
-                  <Calendar className="h-12 w-12 text-primary" />
+                <div className="p-3 sm:p-4 bg-primary/10 rounded-full">
+                  <Calendar className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 text-primary" />
                 </div>
               </div>
               
-              <h3 className="text-2xl font-bold text-foreground">
+              <h3 className="text-xl sm:text-2xl font-bold text-foreground">
                 Ready to Start Your Project?
               </h3>
               
-              <p className="text-muted-foreground text-lg leading-relaxed">
+              <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
                 Let's discuss your ideas and how we can bring them to life. 
                 Book a 30-minute call with me to talk about your project requirements, 
                 timeline, and how we can work together to achieve your goals.
@@ -60,14 +60,14 @@ export default function ContactSection() {
             <Button 
               onClick={handleBookCall}
               size="lg" 
-              className="group bg-primary hover:bg-primary/90 text-primary-foreground rounded-full shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 hover:shadow-[0_0_30px_hsl(var(--primary)/0.6)] hover:scale-105"
+              className="group w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground rounded-full shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 hover:shadow-[0_0_30px_hsl(var(--primary)/0.6)] hover:scale-105 px-4 sm:px-6 text-sm sm:text-base"
             >
-              <Calendar className="mr-2 h-5 w-5" />
+              <Calendar className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
               Book a Free Consultation
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 transition-transform group-hover:translate-x-1" />
             </Button>
 
-            <p className="text-sm text-muted-foreground">
+            <p className="text-xs sm:text-sm text-muted-foreground">
               You'll be redirected to Calendly to choose your preferred time
             </p>
           </div>
