@@ -97,24 +97,42 @@ export const socialLinks = [
 
 export const reviews = [
   {
-    quote: "Working with ClickFlow Studio was an absolute pleasure. Their attention to detail and commitment to quality is unparalleled. They transformed our vision into a stunning, high-performance reality.",
-    name: "Jane Doe",
-    title: "CEO, Tech Innovators",
+    quote:
+      "Collaborating with ClickFlow Studio was a game-changer for our digital strategy. They understood our vision immediately and delivered a website that perfectly blends functionality with style. Truly a world-class experience.",
+    name: "Ama Nkrumah",
+    title: "Founder, Kente Digital Agency (Ghana)",
     imageId: "reviewer-1"
   },
   {
-    quote: "A true professional and a master of their craft. The code is clean, the communication is clear, and the results speak for themselves. I couldn't be happier with the final product.",
-    name: "John Smith",
-    title: "CTO, Future Solutions",
+    quote:
+      "The ClickFlow team brought a level of professionalism and creativity that’s rare to find. Our platform runs smoother, loads faster, and looks better than ever. Their commitment to excellence is unmatched.",
+    name: "Tunde Adesina",
+    title: "CTO, Lagos FinTech Hub (Nigeria)",
     imageId: "reviewer-2"
   },
   {
-    quote: "Their ability to tackle complex problems with creative solutions is impressive. They delivered on time, on budget, and exceeded all our expectations. Highly recommended!",
-    name: "Emily White",
-    title: "Product Manager, Creative Co.",
+    quote:
+      "They took the time to understand our local market and crafted a solution that truly speaks to our audience. From communication to execution, every step was handled with care and precision. Highly recommended!",
+    name: "Zanele Mthembu",
+    title: "Marketing Director, Ubuntu Creatives (South Africa)",
     imageId: "reviewer-3"
+  },
+  {
+    quote:
+      "What stood out for me was their ability to merge global design standards with a deep appreciation of African culture and storytelling. The final product exceeded our expectations in every way.",
+    name: "Khalid Mwangi",
+    title: "CEO, EastWave Media (Kenya)",
+    imageId: "reviewer-4"
+  },
+  {
+    quote:
+      "Reliable, innovative, and deeply collaborative that’s how I’d describe ClickFlow Studio. They helped us scale our online store seamlessly while maintaining a sleek and modern look.",
+    name: "Fatima Diallo",
+    title: "E-Commerce Lead, Sahara Styles (Senegal)",
+    imageId: "reviewer-5"
   }
 ];
+
 
 export const stats = [
   {
