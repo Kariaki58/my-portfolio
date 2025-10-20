@@ -1,3 +1,5 @@
+"use client";
+
 import { reviews } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ScrollAnimationWrapper } from '../scroll-animation-wrapper';
@@ -11,9 +13,17 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import Image from 'next/image';
-import { Star } from 'lucide-react';
+import { Star, MessageCircle } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
+// Updated reviews data with TikTok handles
+
 
 export default function ReviewsSection() {
+  const handleTikTokClick = (handle: string) => {
+    window.open(`https://www.tiktok.com/${handle}`, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <section id="reviews" className="py-24 md:py-32">
       <div className="container">
@@ -57,7 +67,26 @@ export default function ReviewsSection() {
                               </div>
                             )}
                             <p className="font-bold text-lg font-headline text-primary-foreground">{review.name}</p>
-                            <p className="text-sm text-muted-foreground">{review.title}</p>
+                            <p className="text-sm text-muted-foreground mb-4">{review.title}</p>
+                            
+                            {/* TikTok Handle Section */}
+                            <div className="mt-4 p-3 bg-gradient-to-r from-[#69C9D0]/10 to-[#EE1D52]/10 border border-[#69C9D0]/20 rounded-lg">
+                              <p className="text-xs text-muted-foreground mb-1">contact on TikTok</p>
+                              <div className="flex items-center justify-center gap-2">
+                                <MessageCircle className="h-4 w-4 text-[#69C9D0]" />
+                                <span className="text-sm font-medium text-foreground">
+                                  {review.tiktokHandle}
+                                </span>
+                              </div>
+                              <Button
+                                onClick={() => handleTikTokClick(review.tiktokHandle)}
+                                variant="ghost"
+                                size="sm"
+                                className="mt-2 h-7 text-xs bg-white/5 hover:bg-[#69C9D0] hover:text-white transition-all duration-300"
+                              >
+                                contact
+                              </Button>
+                            </div>
                           </CardContent>
                         </Card>
                       </div>

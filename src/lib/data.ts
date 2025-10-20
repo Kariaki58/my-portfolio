@@ -98,41 +98,37 @@ export const socialLinks = [
 export const reviews = [
   {
     quote:
-      "Collaborating with ClickFlow Studio was a game-changer for our digital strategy. They understood our vision immediately and delivered a website that perfectly blends functionality with style. Truly a world-class experience.",
-    name: "Ama Nkrumah",
-    title: "Founder, Kente Digital Agency (Ghana)",
-    imageId: "reviewer-1"
+      "Working with Clickflow Studio completely transformed our online presence. They understood exactly what our dental clinic needed a clean, professional website that builds trust and reflects the quality of our care. The process was seamless, and the results speak for themselves",
+    name: "Kariaki Gifted",
+    title: "Founder, Neon Dental Prosthetics",
+    imageId: "reviewer-1",
+    tiktokHandle: "@neon_dental33"
   },
   {
     quote:
-      "The ClickFlow team brought a level of professionalism and creativity that’s rare to find. Our platform runs smoother, loads faster, and looks better than ever. Their commitment to excellence is unmatched.",
-    name: "Tunde Adesina",
-    title: "CTO, Lagos FinTech Hub (Nigeria)",
-    imageId: "reviewer-2"
+      "Clickflow Studio didn’t just make my site look good — they made it work. My new landing page now brings in daily leads and sells my data analysis course automatically. I’ve never had this kind of consistency before!",
+    name: "Oluwatosin Babalola",
+    title: "CEO, Bomcel Digital",
+    imageId: "reviewer-2",
+    tiktokHandle: "@tech_sis29"
   },
   {
     quote:
-      "They took the time to understand our local market and crafted a solution that truly speaks to our audience. From communication to execution, every step was handled with care and precision. Highly recommended!",
-    name: "Zanele Mthembu",
-    title: "Marketing Director, Ubuntu Creatives (South Africa)",
-    imageId: "reviewer-3"
+      "Before working with Clickflow Studio, my salon was always packed people waiting, long lines, total chaos. Now, everyone books ahead through our new website, and business feels organized for the first time. I’m honestly obsessed with how clean and easy it looks!",
+    name: "Cynthia Dimgba",
+    title: "Owner of victoria hair braiding and weaving center",
+    imageId: "reviewer-3",
+    tiktokHandle: "@cynthiadimgba"
   },
   {
     quote:
-      "What stood out for me was their ability to merge global design standards with a deep appreciation of African culture and storytelling. The final product exceeded our expectations in every way.",
-    name: "Khalid Mwangi",
-    title: "CEO, EastWave Media (Kenya)",
-    imageId: "reviewer-4"
+      "What impressed me most about Clickflow Studio was how they understood our industry. They built a data-focused website that feels both global and personal — simple, fast, and professional. It perfectly represents who we are as a brand.",
+    name: "Ifeoluwa S. Faleye",
+    title: "CEO, sekelhive",
+    imageId: "reviewer-4",
+    tiktokHandle: "@dataevangelist"
   },
-  {
-    quote:
-      "Reliable, innovative, and deeply collaborative that’s how I’d describe ClickFlow Studio. They helped us scale our online store seamlessly while maintaining a sleek and modern look.",
-    name: "Fatima Diallo",
-    title: "E-Commerce Lead, Sahara Styles (Senegal)",
-    imageId: "reviewer-5"
-  }
 ];
-
 
 export const stats = [
   {
