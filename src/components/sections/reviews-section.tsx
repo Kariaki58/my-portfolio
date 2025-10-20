@@ -16,8 +16,6 @@ import Image from 'next/image';
 import { Star, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-// Updated reviews data with TikTok handles
-
 
 export default function ReviewsSection() {
   const handleTikTokClick = (handle: string) => {
