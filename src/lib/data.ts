@@ -106,7 +106,7 @@ export const reviews = [
   },
   {
     quote:
-      "Clickflow Studio didn’t just make my site look good — they made it work. My new landing page now brings in daily leads and sells my data analysis course automatically. I’ve never had this kind of consistency before!",
+      "Clickflow Studio didn’t just make my site look good they made it work. My new landing page now brings in daily leads and sells my data analysis course automatically. I’ve never had this kind of consistency before!",
     name: "Oluwatosin Babalola",
     title: "CEO, Bomcel Digital",
     imageId: "reviewer-2",
@@ -122,7 +122,7 @@ export const reviews = [
   },
   {
     quote:
-      "What impressed me most about Clickflow Studio was how they understood our industry. They built a data-focused website that feels both global and personal — simple, fast, and professional. It perfectly represents who we are as a brand.",
+      "What impressed me most about Clickflow Studio was how they understood our industry. They built a data-focused website that feels both global and personal simple, fast, and professional. It perfectly represents who we are as a brand.",
     name: "Ifeoluwa S. Faleye",
     title: "CEO, sekelhive",
     imageId: "reviewer-4",
