@@ -51,7 +51,7 @@ export default function Header() {
     )}>
       <div className="container flex h-20 items-center justify-between">
         <Link href="#home" className="flex items-center gap-3 text-xl font-bold font-headline text-foreground">
-          <span>Experience-Driven Design. Growth-Driven Development.</span>
+          <span>ClickFlow Studio</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
           {navItems.map(item => (
@@ -71,7 +71,7 @@ export default function Header() {
               <div className="flex flex-col h-full">
                 <div className="flex justify-between items-center py-4 border-b border-white/10">
                     <Link href="#home" className="flex items-center gap-2 text-xl font-bold font-headline text-foreground" onClick={() => setIsMobileMenuOpen(false)}>
-                      <span>Experience-Driven Design. Growth-Driven Development.</span>
+                      <span>ClickFlow Studio</span>
                     </Link>
                     <SheetTrigger asChild>
                       <Button variant="ghost" size="icon">

@@ -14,7 +14,7 @@ export default function HeroSection() {
       
       <div className="container relative z-10 flex flex-col items-center">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-headline mb-4 tracking-tighter">
-          <span className="text-glow">ClickFlow</span> Studio
+          <span className="text-glow">Experience-Driven Design.</span> Growth-Driven Development.
         </h1>
         <p className="text-lg md:text-2xl font-light bg-gradient-to-r from-primary via-accent to-primary animated-gradient animate-text-shimmer mb-8 max-w-2xl">
           We build digital experiences that drive growth. From web development to SEO, we're your partners in success.
