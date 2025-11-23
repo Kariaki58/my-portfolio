@@ -71,11 +71,6 @@ export const services = [
     description: "Boosting your online visibility and driving organic traffic with proven SEO strategies.",
   },
   {
-    icon: Video,
-    title: "Video Editing",
-    description: "Producing compelling video content that engages your audience and tells your story.",
-  },
-  {
     icon: Type,
     title: "Copywriting",
     description: "Creating persuasive and engaging copy that converts visitors into customers.",

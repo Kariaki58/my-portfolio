@@ -71,7 +71,7 @@ export default function Header() {
               <div className="flex flex-col h-full">
                 <div className="flex justify-between items-center py-4 border-b border-white/10">
                     <Link href="#home" className="flex items-center gap-2 text-xl font-bold font-headline text-foreground" onClick={() => setIsMobileMenuOpen(false)}>
-                      <span>ClickFlow Studio</span>
+                      <span>Experience-Driven Design. Growth-Driven Development.</span>
                     </Link>
                     <SheetTrigger asChild>
                       <Button variant="ghost" size="icon">
