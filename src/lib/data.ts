@@ -1,85 +1,173 @@
-import { Github, Linkedin, Instagram, Twitter, MessageCircle, Code, Smartphone, BarChart, Video, Type, Briefcase, Smile, FolderKanban, Clock } from 'lucide-react';
+import {
+  Github,
+  Instagram,
+  Twitter,
+  MessageCircle,
+  Scissors,
+  Film,
+  Repeat2,
+  ShieldCheck,
+  TrendingUp,
+  Clock,
+  Sparkles,
+} from 'lucide-react';
 
 export const projects = [
   {
-    title: 'MLM System with Ecommerce',
-    description: 'A 7 layer mlm system that allow people to refer and earn money, also have a marketplace.',
-    tags: ['Web Development', 'Next.js', 'Futterwave', 'emailjs', 'Mongodb'],
+    title: 'Short-Form Edit (Hook + Captions)',
+    description:
+      'Short-form edit built for retention: hook-first open, clean captions, and platform-native pacing.',
+    tags: ['Clipping', 'Short-form', 'Hooks', 'Captions'],
     imageId: 'project-1',
-    link: 'https://www.pamarel.com.ng/',
+    link: '#contact',
+    results: ['10+ clips per episode', 'Stronger hooks + retention', 'Consistent weekly output'],
+    // Add your own video file in `public/portfolio/` and set this path.
+    // Example: "/portfolio/clip-01.mp4"
+    videoSrc: "",
+    format: "short-form",
   },
   {
-    title: 'Nkins Brand online Store',
-    description: 'A professional looking website that increases Nkins sales by 35%',
-    tags: ['Web Development', 'Nextjs 15', 'Mongodb', 'Resend'],
+    title: 'Short-Form Edit (Story Cut)',
+    description:
+      'A story-first cutdown with tighter pacing, cleaner beats, and a CTA that feels natural.',
+    tags: ['YouTube', 'Podcast', 'Long-form', 'Retention'],
     imageId: 'project-2',
-    link: 'https://nkins.vercel.app/',
+    link: '#contact',
+    results: ['Cleaner pacing', 'Higher average view duration', 'Repurposed into shorts'],
+    videoSrc: "",
+    format: "short-form",
   },
   {
-    title: 'Data Analytics Company Website',
-    description: 'A professional modern conversion focus data analytics website for sekelhive',
-    tags: ['Web Development', 'Nextjs 15', 'Tailwind Css'],
+    title: 'Short-Form Edit (Talking Head)',
+    description:
+      'Talking-head short optimized for clarity, punch, and readability on mobile.',
+    tags: ['Repurposing', 'Systems', 'Consistency', 'Monetization'],
     imageId: 'project-3',
-    link: 'https://www.sekelhive.com/',
+    link: '#contact',
+    results: ['1 → 10+ assets', 'Faster publishing cadence', 'Stronger calls-to-action'],
+    videoSrc: "",
+    format: "short-form",
   },
   {
-    title: 'Dentist WebSite',
-    description: 'Modern designed Dentist Website for neondentalprosthetic',
-    tags: ['Web Development', 'Nextjs 15', 'MongoDB', 'Tailwind Css'],
+    title: 'Short-Form Edit (UGC Style)',
+    description:
+      'UGC-style pacing with clean captions and brand-safe polish—ready for organic or paid.',
+    tags: ['UGC', 'Cutdowns', 'Brand-safe', 'Ads-ready'],
     imageId: 'project-4',
-    link: 'https://www.neondentalprosthetic.com/',
+    link: '#contact',
+    results: ['Multiple angles per concept', 'Clearer messaging', 'Ad + organic variants'],
+    videoSrc: "",
+    format: "short-form",
+  },
+  {
+    title: 'Short-Form Edit (Podcast Pull)',
+    description:
+      'A podcast highlight pulled and edited into a vertical clip with tight pacing and clean audio.',
+    tags: ['Podcast', 'Short-form', 'Vertical', 'Captions'],
+    imageId: 'project-5',
+    link: '#contact',
+    results: ['Highlight selection', 'Retention-focused cuts', 'Publish-ready delivery'],
+    videoSrc: "",
+    format: "short-form",
   },
 ];
 
-export const timeline = [
+export const processSteps = [
   {
-    year: '2022',
-    title: 'Agency Founded',
-    description: 'ClickFlow Studio was founded with the mission to help businesses succeed in the digital world.',
+    title: 'Strategy + direction',
+    description:
+      'We align on your audience, offers, platforms, and what “a win” looks like (views, retention, leads, sales).',
   },
   {
-    year: '2023',
-    title: 'Expanded Services',
-    description: 'Expanded our service offerings to include App Development and SEO to meet growing client demand.',
+    title: 'Capture + intake',
+    description:
+      'Drop your raw footage (or give us access). We pull highlights, map themes, and build a repeatable content plan.',
   },
   {
-    year: '2024',
-    title: 'Growth Partner Program',
-    description: 'Launched our In-house Growth Partner program, offering dedicated teams to accelerate business growth.',
+    title: 'Edit + optimize',
+    description:
+      'Platform-native pacing, hook-first openings, captions, and clean sound—built to stop scroll and hold attention.',
   },
   {
-    year: '2025',
-    title: '20+ Happy Clients',
-    description: 'Celebrated the milestone of helping over 20 clients achieve their digital marketing and development goals.',
+    title: 'Publish-ready delivery',
+    description:
+      'We deliver organized files, titles, and post notes so you can publish fast (or we can plug into your workflow).',
+  },
+  {
+    title: 'Iterate weekly',
+    description:
+      'We review what’s working and double down—so your content gets more efficient over time, not more chaotic.',
   },
 ];
 
 export const services = [
   {
-    icon: Code,
-    title: "Web Development",
-    description: "Crafting beautiful, high-performance websites tailored to your brand and business goals.",
+    icon: Scissors,
+    title: 'Short-form content clipping',
+    description:
+      'Turn long recordings into scroll-stopping TikToks, Reels, and Shorts that drive reach, saves, and followers.',
   },
   {
-    icon: Smartphone,
-    title: "App Development",
-    description: "Building intuitive and scalable mobile applications for both iOS and Android platforms.",
+    icon: Film,
+    title: 'Long-form editing',
+    description:
+      'YouTube videos and podcasts edited for watch-time tight structure, clean pacing, and premium polish.',
   },
   {
-    icon: BarChart,
-    title: "SEO",
-    description: "Boosting your online visibility and driving organic traffic with proven SEO strategies.",
+    icon: Repeat2,
+    title: 'Content repurposing systems',
+    description:
+      'A repeatable workflow that turns 1 recording into 10+ assets so you post consistently without burning out.',
   },
   {
-    icon: Type,
-    title: "Copywriting",
-    description: "Creating persuasive and engaging copy that converts visitors into customers.",
+    icon: TrendingUp,
+    title: 'Performance-driven optimization',
+    description:
+      'Hook testing, retention-first cuts, and packaging support to turn content into leads, bookings, and revenue.',
   },
   {
-    icon: Briefcase,
-    title: "In-house Growth Partner",
-    description: "Embedding our experts in your team to provide continuous, data-driven growth.",
+    icon: ShieldCheck,
+    title: 'Agency-level reliability',
+    description:
+      'Fast turnaround, clean delivery, and a professional process—built for founders and personal brands that move fast.',
   }
+];
+
+export const pricingPackages = [
+  {
+    title: 'Starter',
+    price: 'From $1,500/mo',
+    description: 'For creators who want consistent output without hiring in-house.',
+    items: [
+      '8–12 short-form clips / month',
+      'Captions + basic motion',
+      '1 revision round',
+      '48–72h turnaround (typical)',
+    ],
+  },
+  {
+    title: 'Growth',
+    price: 'From $3,000/mo',
+    description: 'For founders and coaches scaling content into leads and bookings.',
+    items: [
+      '20–30 short-form clips / month',
+      'Weekly batch delivery',
+      'Hook + retention optimization',
+      'Content repurposing workflow',
+    ],
+    featured: true,
+  },
+  {
+    title: 'Authority',
+    price: 'Custom retainer',
+    description: 'For personal brands publishing long-form + short-form at scale.',
+    items: [
+      'Long-form editing (YouTube/podcast)',
+      '30+ short-form clips / month',
+      'Priority turnaround',
+      'Dedicated editor + producer support',
+    ],
+  },
 ];
 
 
@@ -93,52 +181,48 @@ export const socialLinks = [
 export const reviews = [
   {
     quote:
-      "Working with Clickflow Studio completely transformed our online presence. They understood exactly what our dental clinic needed a clean, professional website that builds trust and reflects the quality of our care. The process was seamless, and the results speak for themselves",
-    name: "Kariaki Gifted",
-    title: "Founder, Neon Dental Prosthetics",
+      "The edits feel premium and the clips actually perform. What I love most is the consistency every week we have publish-ready content without the scramble.",
+    name: "Client (Creator)",
+    title: "Short-form + YouTube",
     imageId: "reviewer-1",
-    tiktokHandle: "@neon_dental33"
   },
   {
     quote:
-      "Clickflow Studio didn’t just make my site look good they made it work. My new landing page now brings in daily leads and sells my data analysis course automatically. I’ve never had this kind of consistency before!",
-    name: "Oluwatosin Babalola",
-    title: "CEO, Bomcel Digital",
+      "They think beyond editing. Hooks, pacing, captions everything is built for attention and action. It’s been a real growth partnership.",
+    name: "Client (Founder)",
+    title: "Podcast + repurposing",
     imageId: "reviewer-2",
-    tiktokHandle: "@tech_sis29"
   },
   {
     quote:
-      "Before working with Clickflow Studio, my salon was always packed people waiting, long lines, total chaos. Now, everyone books ahead through our new website, and business feels organized for the first time. I’m honestly obsessed with how clean and easy it looks!",
-    name: "Cynthia Dimgba",
-    title: "Owner of victoria hair braiding and weaving center",
+      "Fast turnaround, clean delivery, and the content matches my brand. I can finally stay consistent without spending my weekends editing.",
+    name: "Client (Coach)",
+    title: "Reels + Shorts",
     imageId: "reviewer-3",
-    tiktokHandle: "@cynthiadimgba"
   },
   {
     quote:
-      "What impressed me most about Clickflow Studio was how they understood our industry. They built a data-focused website that feels both global and personal simple, fast, and professional. It perfectly represents who we are as a brand.",
-    name: "Ifeoluwa S. Faleye",
-    title: "CEO, sekelhive",
+      "Their process is professional and predictable. We record, they deliver, we publish. The system is the win.",
+    name: "Client (Brand)",
+    title: "UGC + cutdowns",
     imageId: "reviewer-4",
-    tiktokHandle: "@dataevangelist"
   },
 ];
 
 export const stats = [
   {
-    icon: Smile,
-    value: 20,
-    label: "Happy Clients"
+    icon: Sparkles,
+    value: 100,
+    label: "Clips Delivered"
   },
   {
-    icon: FolderKanban,
-    value: 25,
-    label: "Projects Completed"
+    icon: TrendingUp,
+    value: 35,
+    label: "Avg. Lift in Consistency"
   },
   {
     icon: Clock,
-    value: 4,
-    label: "Years of Experience"
+    value: 72,
+    label: "Hour Turnaround (Typical)"
   }
 ];

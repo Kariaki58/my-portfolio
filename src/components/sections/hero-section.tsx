@@ -14,15 +14,15 @@ export default function HeroSection() {
       
       <div className="container relative z-10 flex flex-col items-center">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-headline mb-4 tracking-tighter">
-          <span className="text-glow">Experience-Driven Design.</span> Growth-Driven Development.
+          <span className="text-glow">Short-form edits that stop the scroll.</span> Repurposing that scales.
         </h1>
         <p className="text-lg md:text-2xl font-light bg-gradient-to-r from-primary via-accent to-primary animated-gradient animate-text-shimmer mb-8 max-w-2xl">
-          We build digital experiences that drive growth. From web development to SEO, we're your partners in success.
+          Premium short-form editing plus long-form clipping/repurposing for US creators, coaches, and personal brands—built for retention, consistency, and revenue (not just “clean edits”).
         </p>
 
         <Link href="#contact">
           <Button size="lg" className="group bg-primary hover:bg-primary/90 text-primary-foreground rounded-full shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 hover:shadow-[0_0_30px_hsl(var(--primary)/0.6)]">
-            Start a Project
+            Book a Call
             <ArrowDown className="ml-2 h-5 w-5 transform transition-transform duration-300 group-hover:translate-y-1" />
           </Button>
         </Link>

@@ -13,20 +13,17 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import Image from 'next/image';
-import { Star, MessageCircle } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 
 export default function ReviewsSection() {
-  const handleTikTokClick = (handle: string) => {
-    window.open(`https://www.tiktok.com/${handle}`, '_blank', 'noopener,noreferrer');
-  };
-
   return (
     <section id="reviews" className="py-24 md:py-32">
       <div className="container">
         <ScrollAnimationWrapper>
-          <SectionHeading subtitle="Testimonials" title="What Our Clients Say" />
+          <SectionHeading subtitle="Trust" title="Trusted By Busy Operators" />
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper delay={200}>
           <div className="relative">
@@ -66,24 +63,14 @@ export default function ReviewsSection() {
                             )}
                             <p className="font-bold text-lg font-headline text-primary-foreground">{review.name}</p>
                             <p className="text-sm text-muted-foreground mb-4">{review.title}</p>
-                            
-                            {/* TikTok Handle Section */}
-                            <div className="mt-4 p-3 bg-gradient-to-r from-[#69C9D0]/10 to-[#EE1D52]/10 border border-[#69C9D0]/20 rounded-lg">
-                              <p className="text-xs text-muted-foreground mb-1">contact on TikTok</p>
-                              <div className="flex items-center justify-center gap-2">
-                                <MessageCircle className="h-4 w-4 text-[#69C9D0]" />
-                                <span className="text-sm font-medium text-foreground">
-                                  {review.tiktokHandle}
-                                </span>
-                              </div>
-                              <Button
-                                onClick={() => handleTikTokClick(review.tiktokHandle)}
-                                variant="ghost"
-                                size="sm"
-                                className="mt-2 h-7 text-xs bg-white/5 hover:bg-[#69C9D0] hover:text-white transition-all duration-300"
-                              >
-                                contact
+
+                            <div className="w-full max-w-sm mt-4">
+                              <Button asChild size="sm" className="w-full rounded-full">
+                                <Link href="#contact">Book a call</Link>
                               </Button>
+                              <p className="mt-3 text-xs text-muted-foreground">
+                                No long-term contracts. Fast turnaround. Clear weekly delivery.
+                              </p>
                             </div>
                           </CardContent>
                         </Card>

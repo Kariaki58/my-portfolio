@@ -9,7 +9,7 @@ export default function ServicesSection() {
     <section id="services" className="py-24 md:py-32 bg-card/20">
       <div className="container">
         <ScrollAnimationWrapper>
-          <SectionHeading subtitle="What We Do" title="Our Services" />
+          <SectionHeading subtitle="Offer" title="Editing That Compounds" />
         </ScrollAnimationWrapper>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -1,4 +1,4 @@
-import { timeline } from "@/lib/data";
+import { processSteps } from "@/lib/data";
 import { ScrollAnimationWrapper } from "../scroll-animation-wrapper";
 import { SectionHeading } from "../section-heading";
 import { cn } from "@/lib/utils";
@@ -8,23 +8,25 @@ export default function AboutSection() {
     <section id="about" className="py-24 md:py-32">
       <div className="container">
         <ScrollAnimationWrapper>
-          <SectionHeading subtitle="Our Story" title="About ClickFlow" />
+          <SectionHeading subtitle="About" title="A Specialist Editing Partner" />
         </ScrollAnimationWrapper>
 
         <ScrollAnimationWrapper className="max-w-3xl mx-auto mb-16 text-center">
-            <p className="text-lg text-muted-foreground">
-              ClickFlow Studio was born from a passion for creating elegant, high-performance digital experiences that drive real-world results. We transform complex problems into beautiful, intuitive solutions that help businesses thrive.
-            </p>
+          <p className="text-lg text-muted-foreground">
+            We’re a boutique video editing and clipping agency built for US creators, founders, and personal brands who
+            care about output and outcomes. You bring the ideas and the voice. We bring the system that turns raw
+            recordings into consistent, publish-ready content—optimized for attention, retention, and action.
+          </p>
         </ScrollAnimationWrapper>
         
         <div className="relative max-w-4xl mx-auto">
           <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-border -translate-x-1/2"></div>
-          {timeline.map((item, index) => (
+          {processSteps.map((item, index) => (
             <ScrollAnimationWrapper key={index} className="mb-8" threshold={0.5}>
               <div className="flex md:grid md:grid-cols-2 items-start w-full">
                 <div className={cn("hidden md:block", index % 2 === 0 ? "md:col-start-2 md:text-left" : "md:col-start-1 md:text-right")}>
                   <div className="p-6">
-                     <p className="text-primary font-bold mb-1">{item.year}</p>
+                    <p className="text-primary font-bold mb-1">Step {index + 1}</p>
                   </div>
                 </div>
                 <div className={cn("relative w-full pl-12 md:pl-0", index % 2 === 0 ? "md:col-start-1 md:text-right" : "md:col-start-2 md:text-left")}>
@@ -32,7 +34,7 @@ export default function AboutSection() {
                    <div className={cn("hidden md:block absolute top-8 w-4 h-4 rounded-full bg-primary border-4 border-background -translate-y-1/2 shadow-[0_0_10px_hsl(var(--primary))]",
                     index % 2 === 0 ? "right-[-8px] -translate-x-0" : "left-[-8px] translate-x-0"
                   )}></div>
-                   <div className="md:hidden text-primary font-bold mb-1">{item.year}</div>
+                   <div className="md:hidden text-primary font-bold mb-1">Step {index + 1}</div>
                    <div className={cn("p-6 bg-card/50 border border-white/10 rounded-xl backdrop-blur-sm",
                     index % 2 === 0 ? "md:mr-8 text-left md:text-right" : "md:ml-8 text-left"
                   )}>
